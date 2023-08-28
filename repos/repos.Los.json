@@ -1,8 +1,8 @@
 [
   {
     "kernelSource": {
-      "name": "mc-ksu",
-      "repo": "https://github.com/xin0aini/kernel_oneplus_sm8250_Meteoric",
+      "name": "Los-ksu",
+      "repo": "https://github.com/LineageOS/android_kernel_oneplus_sm8250",
       "branch": "13.1",
       "device": "kona-perf",
       "defconfig": "vendor/kona-perf_defconfig"
