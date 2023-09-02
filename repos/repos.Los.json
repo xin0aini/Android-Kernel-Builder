@@ -88,7 +88,7 @@
   {
     "kernelSource": {
       "name": "topaz-ksu",
-      "repo": "https://github.com/xin0aini/kernel_oneplus_sm8250"
+      "repo": "https://github.com/xin0aini/kernel_oneplus_sm8250",
       "branch": "topaz",
       "device": "kona-perf",
       "defconfig": "vendor/kona-perf_defconfig"
