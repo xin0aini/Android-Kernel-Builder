@@ -36,15 +36,15 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/xin0aini/AnyKernel3",
+      "branch": "master"
     }
   }
 ]
 [
   {
     "kernelSource": {
-      "name": "EVO-ksu",
+      "name": "tiramisu",
       "repo": "https://github.com/xin0aini/kernel_oneplus_sm8250-evo-x",
       "branch": "lineage-20",
       "device": "kona-perf",
@@ -79,8 +79,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/xin0aini/AnyKernel3",
+      "branch": "master"
     }
   }
 ]
