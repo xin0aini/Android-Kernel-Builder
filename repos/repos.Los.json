@@ -44,9 +44,9 @@
 [
   {
     "kernelSource": {
-      "name": "tiramisu",
+      "name": "EVO-ksu",
       "repo": "https://github.com/xin0aini/kernel_oneplus_sm8250-evo-x",
-      "branch": "lineage-20",
+      "branch": "tiramisu",
       "device": "kona-perf",
       "defconfig": "vendor/kona-perf_defconfig"
     },
