@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Los-ksu",
-      "repo": "https://github.com/Nabu-upsidedowncake/kernel_xiaomi_nabu",
-      "branch": "udc",
+      "name": "arrow-ksu",
+      "repo": "https://github.com/ArrowOS-Devices/android_kernel_xiaomi_nabu",
+      "branch": "arrow-13.1",
       "device": "nabu-perf",
-      "defconfig": "nabu_defconfig"
+      "defconfig": "nabu_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
