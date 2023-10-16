@@ -4,8 +4,8 @@
       "name": "Los-ksu",
       "repo": "https://github.com/Nabu-upsidedowncake/kernel_xiaomi_nabu",
       "branch": "udc",
-      "device": "sm8150-perf",
-      "defconfig": "sm8150-perf_defconfig"
+      "device": "nabu-perf",
+      "defconfig": "nabu_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
