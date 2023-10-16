@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "arrow-ksu",
-      "repo": "https://github.com/ArrowOS-Devices/android_kernel_xiaomi_nabu",
+      "repo": "https://github.com/xin0aini/android_kernel_xiaomi_nabu",
       "branch": "arrow-13.1",
       "device": "nabu-perf",
       "defconfig": "nabu_user_defconfig"
