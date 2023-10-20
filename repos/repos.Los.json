@@ -45,10 +45,10 @@
   {
     "kernelSource": {
       "name": "EVO-ksu",
-      "repo": "https://github.com/Kfkcome/android_kernel_xiaomi_nabu",
-      "branch": "13.0",
-      "device": "nabu-perf",
-      "defconfig": "nabu_user_defconfig"
+      "repo": "https://github.com/Evolution-X-Devices/kernel_oneplus_sm8250",
+      "branch": "udc",
+      "device": "evo-perf",
+      "defconfig": "evo_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
