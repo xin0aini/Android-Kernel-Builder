@@ -46,7 +46,7 @@
     "kernelSource": {
       "name": "EVO-ksu",
       "repo": "https://github.com/Evolution-X-Devices/kernel_oneplus_sm8250",
-      "branch": "udc",
+      "branch": "tiramisu",
       "device": "evo-perf",
       "defconfig": "evo_defconfig"
     },
