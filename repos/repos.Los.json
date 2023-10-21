@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "arrow-ksu",
-      "repo": "https://github.com/xin0aini/android_kernel_xiaomi_nabu",
-      "branch": "arrow-13.1",
-      "device": "nabu-perf",
-      "defconfig": "nabu_user_defconfig"
+      "name": "lineage-20",
+      "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-Los",
+      "branch": "lineage-20",
+      "device": "kona-perf",
+      "defconfig": "vendor/kona-perf_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
