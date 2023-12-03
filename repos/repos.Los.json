@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "XTD",
       "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-XTD",
-      "branch": "13.1",
+      "branch": "oos13.1",
       "device": "xtd",
       "defconfig": "xtd_defconfig"
     },
@@ -89,7 +89,7 @@
     "kernelSource": {
       "name": "topaz-ksu",
       "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-XTD",
-      "branch": "13.1",
+      "branch": "oos13.1",
       "device": "xtd",
       "defconfig": "vendor/kona-perf_defconfig"
     },
