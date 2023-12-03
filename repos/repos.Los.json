@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "lineage-20",
-      "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-Los",
-      "branch": "lineage-20",
-      "device": "kona-perf",
-      "defconfig": "vendor/kona-perf_defconfig"
+      "name": "XTD",
+      "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-XTD",
+      "branch": "13.1",
+      "device": "xtd",
+      "defconfig": "xtd_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -88,9 +88,9 @@
   {
     "kernelSource": {
       "name": "topaz-ksu",
-      "repo": "https://github.com/ReallySnow/android_kernel_oneplus_sm8250",
-      "branch": "tsukasa",
-      "device": "kona-perf",
+      "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-XTD",
+      "branch": "13.1",
+      "device": "xtd",
       "defconfig": "vendor/kona-perf_defconfig"
     },
     "withKernelSU": true,
