@@ -87,10 +87,10 @@
 [
   {
     "kernelSource": {
-      "name": "topaz-ksu",
-      "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-XTD",
-      "branch": "oos13.1",
-      "device": "xtd",
+      "name": "Los",
+      "repo": "https://github.com/LineageOS/android_kernel_oneplus_sm8250",
+      "branch": "lineage-21",
+      "device": "kona-perf",
       "defconfig": "vendor/kona-perf_defconfig"
     },
     "withKernelSU": true,
