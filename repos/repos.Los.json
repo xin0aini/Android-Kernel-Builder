@@ -1,99 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "XTD",
-      "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-XTD",
-      "branch": "oos13.1",
-      "device": "xtd",
-      "defconfig": "xtd_defconfig"
-    },
-    "withKernelSU": true,
-    "toolchains": [
-      {
-        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
-        "name": "gas",
-        "binPath": []
-      },
-      {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang",
-        "binPath": ["bin"]
-      }
-    ],
-    "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-"
-      }
-    },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/xin0aini/AnyKernel3",
-      "branch": "master"
-    }
-  }
-]
-[
-  {
-    "kernelSource": {
-      "name": "EVO-ksu",
-      "repo": "https://github.com/Evolution-X-Devices/kernel_oneplus_sm8250",
-      "branch": "udc",
-      "device": "evo-perf",
-      "defconfig": "evo_defconfig"
-    },
-    "withKernelSU": true,
-    "toolchains": [
-      {
-        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
-        "name": "gas",
-        "binPath": []
-      },
-      {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
-        "name": "clang",
-        "binPath": ["bin"]
-      }
-    ],
-    "ccache": true,
-    "params": {
-      "ARCH": "arm64",
-      "CC": "clang/bin/clang",
-      "externalCommand": {
-        "CROSS_COMPILE": "aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-        "CLANG_TRIPLE": "aarch64-linux-gnu-"
-      }
-    },
-    "AnyKernel3": {
-      "use": true,
-      "release": true,
-      "repo": "https://github.com/xin0aini/AnyKernel3",
-      "branch": "master"
-    }
-  }
-]
-[
-  {
-    "kernelSource": {
       "name": "Los",
-      "repo": "https://github.com/LineageOS/android_kernel_oneplus_sm8250",
+      "repo": "https://github.com/xin0aini/android_kernel_oneplus_sm8250-Los",
       "branch": "lineage-21",
       "device": "kona-perf",
       "defconfig": "vendor/kona-perf_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
