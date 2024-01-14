@@ -7,7 +7,7 @@
       "device": "kona-perf",
       "defconfig": "vendor/kona-perf_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
