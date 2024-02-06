@@ -47,7 +47,7 @@
     "kernelSource": {
       "name": "XTD",
       "repo": "https://github.com/ppajda/android_kernel_oneplus_sm8250",
-      "branch": "13.1",
+      "branch": "oos13.1",
       "device": "kona-perf",
       "defconfig": "vendor/kona-perf_defconfig"
     },
