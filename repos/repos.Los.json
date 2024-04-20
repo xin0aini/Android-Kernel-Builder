@@ -18,7 +18,8 @@
         "binPath": []
       },
       {
-        "url": "https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240420-release/Clang-19.0.0git-20240420.tar.gz",
+        "repo": "https://codeberg.org/Mandi-Sa/clang",
+        "branch": "amd64-kernel-arm",
         "name": "clang",
         "binPath": ["bin"]
       }
