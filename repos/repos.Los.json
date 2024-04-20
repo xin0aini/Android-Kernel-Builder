@@ -18,8 +18,8 @@
         "binPath": []
       },
       {
-        "repo": "https://codeberg.org/Mandi-Sa/clang",
-        "branch": "amd64-full-toolchain",
+        "repo": "https://codeberg.org/Mandi-Sa/clang.git",
+        "branch": "amd64-kernel-arm",
         "name": "clang",
         "binPath": ["bin"]
       }
