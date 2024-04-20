@@ -18,8 +18,7 @@
         "binPath": []
       },
       {
-        "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "17",
+        "url": "https://github.com/ZyCromerZ/Clang/releases/download/19.0.0git-20240420-release/Clang-19.0.0git-20240420.tar.gz",
         "name": "clang",
         "binPath": ["bin"]
       }
