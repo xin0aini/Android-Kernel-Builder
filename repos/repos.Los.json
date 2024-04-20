@@ -19,7 +19,7 @@
       },
       {
         "repo": "https://codeberg.org/Mandi-Sa/clang",
-        "branch": "amd64-kernel-arm",
+        "branch": "amd64-full-toolchain",
         "name": "clang",
         "binPath": ["bin"]
       }
