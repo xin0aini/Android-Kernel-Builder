@@ -47,3 +47,52 @@
 
 
 
+
+
+[
+  {
+    "kernelSource": {
+      "name": "Los pert",
+      "repo": "https://github.com/Juansheng/kernel_oneplus_sm8250",
+      "branch": "mini",
+      "device": "kona-perf",
+      "defconfig": "kona_defconfig"
+    },
+    "withKernelSU": true,
+    "toolchains": [
+      {
+        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+        "branch": "master",
+        "name": "gas",
+        "binPath": []
+      },
+      {
+        "repo": "https://codeberg.org/Mandi-Sa/clang.git",
+        "branch": "amd64-kernel-arm",
+        "name": "clang",
+        "binPath": ["bin"]
+      }
+    ],
+    "ccache": true,
+    "params": {
+      "ARCH": "arm64",
+      "CC": "clang/bin/clang",
+      "externalCommand": {
+        "CROSS_COMPILE": "aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+        "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+        "CLANG_TRIPLE": "aarch64-linux-gnu-"
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/xin0aini/AnyKernel3",
+      "branch": "master"
+    }
+  }
+]
+
+
+
+
