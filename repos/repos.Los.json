@@ -54,7 +54,7 @@
     "kernelSource": {
       "name": "Los pert",
       "repo": "https://github.com/Juansheng/kernel_oneplus_sm8250",
-      "branch": "mini",
+      "branch": "release",
       "device": "kona-perf",
       "defconfig": "kona_defconfig"
     },
