@@ -13,7 +13,7 @@
     "toolchains": [
       {
         "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "mini",
+        "branch": "master",
         "name": "gas",
         "binPath": []
       },
